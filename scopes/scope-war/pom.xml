@@ -14,7 +14,7 @@
     </properties>
 
     <artifactId>scope-war</artifactId>
-    <name>war</name>
+    <name>Scope web archive</name>
     <packaging>war</packaging>
 
     <dependencies>
