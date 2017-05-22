@@ -18,5 +18,10 @@
     <packaging>war</packaging>
 
     <dependencies>
+        <dependency>
+            <groupId>se.uhr.nya</groupId>
+            <artifactId>scope-jar</artifactId>
+            <version>${project.version}</version>
+        </dependency>
     </dependencies>
 </project>
