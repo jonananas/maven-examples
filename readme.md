@@ -1,7 +1,3 @@
-#
-optional=true
+# Maven-examples
 
-multimodule + dependencymanagement + inheritance
-parent vs multimodule
-
-NyA-strategy
+maven-projects used to illustrate different maven features
