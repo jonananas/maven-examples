@@ -7,8 +7,8 @@
     <packaging>pom</packaging>
 
     <modules>
-	    <module>multimodule</module>
 	    <module>parent</module>
+	    <module>multimodule</module>
 	    <module>scopes</module>
 	    <module>dependency-resolution</module>
     </modules>
