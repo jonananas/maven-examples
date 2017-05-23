@@ -12,5 +12,5 @@
 	    <module>scopes</module>
 	    <module>dependency-resolution</module>
     </modules>
-
+    
 </project>

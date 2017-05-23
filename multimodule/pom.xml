@@ -10,6 +10,17 @@
     <modules>
         <module>module1</module>
     </modules>
+    
+    <!-- Undersök
+        - Vem är parent till module1?
+        - Hur hittar maven module1?
+        - Vad ärvs från parent till module1?
+          - maven coordinates: groupId? artifactId? version? packaging?
+          - properties?
+          - dependencyManagement? dependencies?
+         Vad händer om du specificerar version på slf4j i module1?
+         Skapa en ny modul
+     -->
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -17,6 +28,7 @@
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
+    <!-- Specify versions only! -->
     <dependencyManagement>
         <dependencies>
             <dependency>

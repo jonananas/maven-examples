@@ -12,13 +12,20 @@
 
     <artifactId>scopes</artifactId>
     <packaging>pom</packaging>
+    
+    <!-- 
+        Vilka scopes har vi definierat i scope-jar?
+        Hur ser dependency hiararchy ut i scope-jar?
+        Hur ser dependency hierarchy ut i scope-war?
+        Hur skiljer de och varför?
+     -->
+    
 
     <modules>
         <module>scope-jar</module>
         <module>scope-war</module>
     </modules>
 
-    <!-- Specify versions only! -->
     <dependencyManagement>
         <dependencies>
             <dependency>

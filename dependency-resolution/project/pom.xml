@@ -25,7 +25,6 @@
         Slutsats: dependencyManagement gör dependencies förutsägbara!
      -->
 
-
     <dependencyManagement>
         <dependencies>
             <dependency>
