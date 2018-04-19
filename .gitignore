@@ -5,3 +5,5 @@
 target
 ~$*.docx
 ~WRL*.tmp
+*.idea
+*.iml
