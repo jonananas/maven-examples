@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>se.uhr.nya</groupId>
+        <groupId>se.example.domain</groupId>
         <artifactId>scopes</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
@@ -14,12 +14,11 @@
     </properties>
 
     <artifactId>scope-war</artifactId>
-    <name>Scope web archive</name>
     <packaging>war</packaging>
 
     <dependencies>
         <dependency>
-            <groupId>se.uhr.nya</groupId>
+            <groupId>se.example.domain</groupId>
             <artifactId>scope-jar</artifactId>
             <version>${project.version}</version>
         </dependency>
